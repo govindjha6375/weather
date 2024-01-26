@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.main{
+    background-color: rgb(14, 187, 245);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* vertically */
+    justify-content: center;
+    /* horizontally */
+   width: 680px;
+    margin: 10px;
+    font-size: 40px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sub{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.weather h1{
+    margin-bottom: 25px;
+}
+.details{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+#search{
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px grey;
+    margin-bottom: 25px;
+}
+#wind_img{
+    width: 50px;
+}
+#hum{
+    width: 50px;
+}
+#visible{
+    width: 50px;
+}
+.wind{
+    background-color: beige;
+    margin: 0px 35px;
+    padding: 10px;
+    overflow-wrap: break-word;
+    font-size: 1.5rem;
+}
+.humidity{
+    background-color: beige;
+    margin: 0px 35px;
+    padding: 10px;
+    overflow-wrap: break-word;
+    font-size: 1.5rem;
+}
+.visiblity{
+    background-color: beige;
+    margin: 0px 35px;
+    padding: 10px;
+    overflow-wrap: break-word;
+    font-size: 1.5rem;
+}
